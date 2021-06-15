@@ -1,0 +1,8 @@
+.carousel_wrapper{
+    transition: 0.25s;
+    position: relative;
+}
+
+.scrolled{
+    padding-top: 80px;
+}

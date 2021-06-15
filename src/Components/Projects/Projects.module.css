@@ -1,0 +1,26 @@
+.title{
+    font-size: 72px;
+    text-align: center;
+    text-shadow: 0 0 3px black;
+    color:#cf25cf;
+}
+
+.wrapper{
+    text-align: center;
+}
+
+.visible{
+    display: block;
+}
+
+.invisible{
+    display: none;
+}
+
+.search{
+    width: 250px;
+    font-size: 24px;
+    margin: 30px auto;
+    border-radius: 8px;
+    border: 2px solid black;
+}

@@ -1,0 +1,13 @@
+.wrapper{
+    max-width: 500px;
+    color: white;
+}
+
+.title{
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.email{
+    color: #cf25cf;
+}

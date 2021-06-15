@@ -1,0 +1,97 @@
+.wrapper{
+    max-width: 500px;
+}
+
+.title{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.desc{
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+
+.form{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.label{
+    margin-bottom: 10px;
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.input{
+    font-size: 24px;
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #000;
+}
+
+.input.error {
+    border-color: #cf25cf;
+}
+
+.textarea{
+    font-size: 24px;
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+    resize: none;
+    height: 300px;
+    overflow: hidden;
+}
+
+.textarea.error{
+    border-color: #cf25cf;
+}
+
+.input_feedback{
+    text-shadow: white 0 0 1px;
+    color: red;
+    margin-top: -20px;
+    font-size: 20px;
+    font-weight:700;
+    margin-bottom: 20px;
+}
+
+.button{
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    width: 150px;
+    padding: 10px 15px;
+    margin-bottom: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    box-shadow: none;
+    transition: 0.3s;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: #cf25cf;
+}
+
+@media (max-width: 768px) {
+    .input{
+        width: 300px;
+        margin: 10px auto;
+    }
+
+    .textarea{
+        width: 300px;
+        margin: 10px auto;
+
+    }
+}
